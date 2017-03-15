@@ -1,0 +1,46 @@
+.article {
+    border: 5px solid green;
+    text-decoration: none;
+    color: green;
+    max-width: 800px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.article p {
+    padding-left: 10px;
+}
+
+.image {
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#searchBox {
+    border-radius: 5px;
+    font-size: 20px;
+    font-style: oblique;
+    background-color: #ccc;
+}
+
+#searchButton {
+    font-size: 15px;
+}
+
+.article h3 {
+    color: blue;
+    font-size: 25px;
+    text-align: center;
+    transition: all .2s;
+}
+
+.article:hover {
+    background-color: #eee;
+}
+
+.article:hover h3 {
+    font-size: 140%;
+}
